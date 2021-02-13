@@ -15,8 +15,12 @@ using namespace std;
 
 
 void funcert(){
+    int podawana;
 
-if(int numbers = rand() % 5; numbers > 5){
+    cout << "Podaj liczbe" << endl;
+    cin >> podawana;
+
+if(int numbers = podawana + 5; numbers > 2){
     cout << " true " << numbers << endl;
 } else {
     cout << " false " << numbers << endl;
