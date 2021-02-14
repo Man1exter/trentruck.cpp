@@ -14,7 +14,6 @@
 
 using namespace std;
 
-
 void funcert(){
     int podawana;
 
@@ -68,13 +67,30 @@ auto praw33 = make_pair(1661441,string("Hello from Man1exter"));
 cout << "pierwsza wartosc praw33.first to ----------------> : " << praw33.first << endl;
 cout << "druga wartosc praw33.second to --------------> : " << praw33.second << endl;
 
+cout << endl;
+
+auto hel5 = make_pair(29961,vector<string>{"Hello", "from", "Man1exter"});
+cout << hel5.first << " <-------------- jego 2 index w tablicy: ------------> "<< hel5.second[2] << endl;
+
 }
+
+
+// c++17 -->
+
+// void newCols(){
+
+// pair pshort(string("Man1exter"), 100.99f);
+// printSTL(pshort, " ");
+
+// }
+
 
 int main(){
 
 funcert();
 funarr();
 pairfuncter();
+// newCols();
 
     return 0;
 }
