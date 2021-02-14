@@ -61,8 +61,12 @@ printSTL(p2, " ");
 pair<double,double>pd(p1); // przeslanie tego samego do kolejnej pary
 printSTL(pd, " ");
 
-cout << "pierwsza wartosc p1.first to : "<< p1.first << endl;
-cout << "druga wartosc p1.second to : "<< p1.second << endl;
+cout << "pierwsza wartosc p1.first to : " << p1.first << endl;
+cout << "druga wartosc p1.second to : " << p1.second << endl;
+
+auto praw33 = make_pair(1661441,string("Hello from Man1exter"));
+cout << "pierwsza wartosc praw33.first to ----------------> : " << praw33.first << endl;
+cout << "druga wartosc praw33.second to --------------> : " << praw33.second << endl;
 
 }
 
