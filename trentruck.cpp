@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <deque>
 #include <functional>
+#include <typeinfo>
 #include "numbers.h"
 
 using namespace std;
@@ -47,10 +48,25 @@ printSTL(liczby , " " , true);
 
 }
 
+void pairfuncter(){
+
+pair<int,int> p1(50,100);
+cout << "typ id: "<< typeid(p1).name() << endl;
+
+auto p2(p1); // konstruktor kopiujacy z p1
+printSTL(p2, " ");
+printSTL(p1, " ");
+
+pair<double,double>pd(p1); // przeslanie tego samego do kolejnej pary
+printSTL(pd, " ");
+
+}
+
 int main(){
 
 funcert();
 funarr();
+pairfuncter();
 
     return 0;
 }
