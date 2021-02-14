@@ -53,12 +53,16 @@ void pairfuncter(){
 pair<int,int> p1(50,100);
 cout << "typ id: "<< typeid(p1).name() << endl;
 
-auto p2(p1); // konstruktor kopiujacy z p1
-printSTL(p2, " ");
 printSTL(p1, " ");
+auto p2(p1); // konstruktor kopiujacy z p1
+printSTL(p1, " ");
+printSTL(p2, " ");
 
 pair<double,double>pd(p1); // przeslanie tego samego do kolejnej pary
 printSTL(pd, " ");
+
+cout << "pierwsza wartosc p1.first to : "<< p1.first << endl;
+cout << "druga wartosc p1.second to : "<< p1.second << endl;
 
 }
 
