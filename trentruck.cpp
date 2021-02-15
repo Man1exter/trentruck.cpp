@@ -84,6 +84,15 @@ cout << hel5.first << " <-------------- jego 2 index w tablicy: ------------> "<
 
 // }
 
+void perTrain(){
+
+    cout << endl;
+    
+deque<int> location;
+
+
+}
+
 
 int main(){
 
@@ -91,6 +100,7 @@ funcert();
 funarr();
 pairfuncter();
 // newCols();
+perTrain();
 
     return 0;
 }
