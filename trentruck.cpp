@@ -110,12 +110,16 @@ printSTL(location , " " , true);
 cout << " ile mozna wpakowac takich elementow: -------> " << location.max_size() << endl;
 
 cout << endl;
-cout << "wstawainie za 3 elementem wstaw Wroclaw" << endl;
+cout << "wstawainie za 3 elementem wstaw ----> Wroclaw <-----" << endl;
 
 location.insert(location.begin() + 3, "Wroclaw");
 printSTL(location , " " , true);
 
 cout << endl;
+
+cout << "Wstawianie 2 razy Minkowice za 5 elementem" << endl;
+location.insert(location.begin() + 5,2, "Minkowice");
+printSTL(location , " " , true);
 
 
 
