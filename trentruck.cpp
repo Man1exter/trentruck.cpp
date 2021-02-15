@@ -84,7 +84,7 @@ cout << hel5.first << " <-------------- jego 2 index w tablicy: ------------> "<
 
 // }
 
-void perTrain(){
+void perTrainDeque(){
 
     cout << " <-- <-- deque mode --> -->" << endl;
 
@@ -109,6 +109,14 @@ printSTL(location , " " , true);
 
 cout << " ile mozna wpakowac takich elementow: -------> " << location.max_size() << endl;
 
+cout << endl;
+cout << "wstawainie za 3 elementem wstaw Wroclaw" << endl;
+
+location.insert(location.begin() + 3, "Wroclaw");
+printSTL(location , " " , true);
+
+cout << endl;
+
 
 
 }
@@ -120,7 +128,7 @@ funcert();
 funarr();
 pairfuncter();
 // newCols();
-perTrain();
+perTrainDeque();
 
     return 0;
 }
