@@ -93,6 +93,22 @@ location.push_front("Kopalina");
 location.push_front("Biskupice");
 printSTL(location , " " , true);
 
+cout << "Po dodaniu petli od 0 do 5 inkrementujac" << endl;
+
+for(int i = 0; i < 5; i++){
+    location.push_back("Man1exter");
+}
+printSTL(location , " " , true);
+
+cout << "usuniecie 3 ostatnich" << endl;
+
+for(int i = 0; i < 3; i++){
+    location.pop_back();
+}
+printSTL(location , " " , true);
+
+
+
 }
 
 
