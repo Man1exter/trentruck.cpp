@@ -107,6 +107,8 @@ for(int i = 0; i < 3; i++){
 }
 printSTL(location , " " , true);
 
+cout << " ile mozna wpakowac takich elementow: -------> " << location.max_size() << endl;
+
 
 
 }
