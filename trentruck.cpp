@@ -86,10 +86,12 @@ cout << hel5.first << " <-------------- jego 2 index w tablicy: ------------> "<
 
 void perTrain(){
 
-    cout << endl;
-    
-deque<int> location;
+    cout << " <-- <-- deque mode --> -->" << endl;
 
+deque<string> location;
+location.push_front("Kopalina");
+location.push_front("Biskupice");
+printSTL(location , " " , true);
 
 }
 
