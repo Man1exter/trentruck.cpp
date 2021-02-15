@@ -121,7 +121,14 @@ cout << "Wstawianie 2 razy Minkowice za 5 elementem" << endl;
 location.insert(location.begin() + 5,2, "Minkowice");
 printSTL(location , " " , true);
 
+cout << endl;
 
+cout << "ostateczny rezultat" << endl;
+cout << "-------------------" << endl;
+cout << "-------------------" << endl;
+printSTL(location , " " , true);
+cout << "-------------------" << endl;
+cout << "-------------------" << endl;
 
 }
 
